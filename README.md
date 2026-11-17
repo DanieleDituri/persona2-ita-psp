@@ -69,7 +69,15 @@ Restano invariati:
 
 ## Avvertenze
 
-- **Traduzione automatica** (Gemini / Claude), partendo dalle traduzioni inglesi e con glossario e controlli automatici su tag, lunghezza righe e caratteri. Non è stata revisionata da un traduttore umano: refusi e frasi poco naturali sono possibili. Segnalazioni e correzioni sono benvenute tramite *Issues* o *Pull request*.
+- **Traduzione automatica.** I testi sono stati tradotti con l'intelligenza artificiale (Gemini / Claude), partendo dalle traduzioni inglesi. Ho usato un glossario e controlli automatici su tag, lunghezza delle righe e caratteri, ma **non c'è stata una revisione umana completa**: refusi, frasi poco naturali, termini incoerenti o righe che escono dal riquadro sono possibili.
+
+  **Se trovi un errore, segnalalo!** Apri una [Issue](https://github.com/DanieleDituri/persona2-ita-psp/issues) e indica:
+  - il gioco (Innocent Sin o Eternal Punishment) e, se c'è, la versione (con accenti / PSP);
+  - il punto del gioco o la scena in cui l'hai trovato;
+  - il testo sbagliato e, se vuoi, la correzione che proponi;
+  - uno screenshot, se puoi.
+
+  Le correzioni verranno raccolte nelle versioni successive della patch. Anche le Pull request sono benvenute.
 - In Innocent Sin non usare "Install Data" dal menu del gioco con la ISO originale: reinstalla i file originali.
 - Testata su PPSSPP 1.20.
 
