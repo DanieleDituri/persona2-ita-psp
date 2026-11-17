@@ -1,0 +1,4 @@
+dist/
+test_out/
+installer/payload/*.p2it
+*.parziale

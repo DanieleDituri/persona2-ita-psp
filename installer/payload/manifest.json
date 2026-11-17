@@ -1,0 +1,58 @@
+{
+ "name": "Persona 2 ITA - Installer patch italiana",
+ "version": "1.0",
+ "games": [
+  {
+   "id": "is",
+   "title": "Persona 2: Innocent Sin",
+   "serial": "ULES01557",
+   "orig_size": 1131184128,
+   "orig_sha256": "fea8708a5a926d61fe6b8ab2b3534ca7d8f02c0c8aaa67b8afee57faad41bb7b",
+   "orig_name": "Shin Megami Tensei - Persona 2 - Innocent Sin (Europe).iso",
+   "tex_dir": "tex_is",
+   "tex_note": "Serve il pack \"HD UI for Persona 2 - Innocent Sin\" di Karasu (https://gamebanana.com/mods/308752):\nestrai la cartella ULUS10584 dentro memstick/PSP/TEXTURES/ e rinominala ULES01557.",
+   "variants": [
+    {
+     "id": "accenti",
+     "label": "Con accenti (PPSSPP + texture pack)",
+     "patch": "is_ita_accenti.p2it",
+     "out_name": "Persona 2 - Innocent Sin [ITA accenti].iso",
+     "out_size": 1131184128,
+     "out_sha256": "266fabce99f687b3f8f9a46f0b2db3c12949e596944d217983165aba638ea34b",
+     "textures": true,
+     "note": "Lettere accentate vere; richiede PPSSPP con il font HD (te lo installo dopo)."
+    },
+    {
+     "id": "psp",
+     "label": "Senza accenti (PSP / PS Vita / qualsiasi emulatore)",
+     "patch": "is_ita_psp.p2it",
+     "out_name": "Persona 2 - Innocent Sin [ITA].iso",
+     "out_size": 1131184128,
+     "out_sha256": "c3dbd3c25482ec20b1fcc17b0be41f26ca12fef96be3e10870d36627d4201442",
+     "textures": false,
+     "note": "Accenti scritti con l'apostrofo (perche', citta'); funziona ovunque."
+    }
+   ]
+  },
+  {
+   "id": "ep",
+   "title": "Persona 2: Eternal Punishment",
+   "serial": "ULJM06081",
+   "orig_size": 1297285120,
+   "orig_sha256": "06785412b46eb67e5341a6b3171bd2e1a1ded1558904c8528e9f8ca71f400a45",
+   "orig_name": "Persona 2 - Batsu - Eternal Punishment (Japan).iso",
+   "variants": [
+    {
+     "id": "ita",
+     "label": "Italiano",
+     "patch": "ep_ita.p2it",
+     "out_name": "Persona 2 - Eternal Punishment [ITA].iso",
+     "out_size": 1021155328,
+     "out_sha256": "5532ea134d2cda209fb1152ca0273e119e0e00380052be8f5f49c56cfe078b05",
+     "textures": false,
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
